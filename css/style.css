@@ -82,18 +82,36 @@ img {
     padding: 0;
     list-style: none;
     display: flex;
+    align-items: center;
     gap: 1.5rem;
 }
 
 .main-nav a {
     font-weight: 500;
-    padding: 0.5rem 0;
+    padding: 0.5rem;
     border-bottom: 2px solid transparent;
 }
 
 .main-nav a.active, .main-nav a:hover {
     color: var(--primary-color);
     border-bottom-color: var(--primary-color);
+}
+
+.cta-nav-button {
+    display: inline-block; 
+    background-color: var(--accent-color);
+    color: var(--headline-color);
+    padding: 1em; 
+    border-radius: var(--border-radius);
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.cta-nav-button:hover {
+    background-color: #b8a54a;
+    color: var(--headline-color);
+    border-bottom-color: transparent;
+    transform: translateY(-2px);
 }
 
 /* --- Hero Sektion --- */
@@ -103,19 +121,19 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     color: var(--white-color);
-    padding: 8rem 0; /* Increased padding for prominence */
+    padding: 10rem 0;
     text-align: center;
-    min-height: 580px; /* Ensure sufficient height */
+    min-height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .hero h1 {
-    font-size: 3.5rem; /* Slightly larger heading */
+    font-size: 3.5rem;
     color: var(--white-color);
     margin-bottom: 1rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for readability */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .hero p {
@@ -139,6 +157,69 @@ img {
     color: var(--headline-color);
     transform: translateY(-2px);
 }
+
+/* --- Mitglied Werden Page --- */
+.mitglied-image-container {
+    max-width: 800px;
+    margin: 0 auto 3rem auto;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+}
+
+.pricing-section {
+    padding: 4rem 0;
+}
+
+.pricing-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.pricing-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    align-items: stretch;
+}
+
+.pricing-card {
+    background-color: var(--white-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    padding: 2.5rem 2rem;
+    border-top: 5px solid var(--primary-color);
+}
+
+.pricing-card h3 {
+    font-size: 1.5rem;
+}
+
+.pricing-card .price {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin: 1rem 0;
+}
+
+.pricing-card .period {
+    color: #6c757d;
+    margin-bottom: 1.5rem;
+}
+
+.join-us-section {
+    padding: 4rem 0;
+    text-align: center;
+    background-color: var(--light-gray-color);
+}
+
+.join-us-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
 
 /* --- Veranstaltungs-Vorschau (Karten) --- */
 .events-preview {
@@ -296,13 +377,12 @@ img {
 
 /* --- Jugend-Seite --- */
 .youth-header {
-    background-color: var(--secondary-color);
-    color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
 }
 
-.youth-header h1, .youth-header p {
-    color: var(--white-color);
-}
 
 .content-with-image {
     display: flex;
