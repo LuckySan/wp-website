@@ -18,6 +18,7 @@
                     <li><a href="jugend.html">Jugend</a></li>
                     <li><a href="chronik.html">Chronik</a></li>
                     <li><a href="fotos_archiv.html">Fotoarchiv</a></li>
+                    <li><a href="artikel.html">Artikel</a></li>
                     <li><a href="mitglied_werden.html" class="cta-nav-button">Werde Mitglied</a></li>
                 </ul>
             </nav>
@@ -43,21 +44,29 @@
                     </div>
                     <div class="articles-column">
                         <h3>Artikel</h3>
+                        <div class="article-controls">
+                            <div class="sort-by">
+                                <label for="sort-articles">Sortieren nach:</label>
+                                <select id="sort-articles">
+                                    <option value="date-desc">Datum (neueste zuerst)</option>
+                                    <option value="date-asc">Datum (älteste zuerst)</option>
+                                </select>
+                            </div>
+                            <div class="filter-keywords">
+                                <button class="filter-btn active" data-keyword="Alle">Alle</button>
+                                <button class="filter-btn" data-keyword="Veranstaltung">Veranstaltung</button>
+                                <button class="filter-btn" data-keyword="Jugend">Jugend</button>
+                                <button class="filter-btn" data-keyword="Wettkampf">Wettkampf</button>
+                                <button class="filter-btn" data-keyword="Allgemein">Allgemein</button>
+                            </div>
+                        </div>
                         <div class="event-cards">
-                    <div class="card">
-                        <div class="card-content">
-                            <h3>Beispiel Artikel</h3>
-                            <p class="event-date">Datum: 21. November 2025</p>
-                            <p>Dies ist eine kurze Beschreibung des Beispielartikels.</p>
-                            <a href="artikel/beispiel-artikel.html" class="card-link">Mehr erfahren</a>
+                            <!-- Articles will be dynamically loaded here by JavaScript -->
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        </div> <!-- Close articles-column -->
-    </div> <!-- Close aktuelles-content -->
-</section>
     </main>
 
     <footer class="main-footer">
