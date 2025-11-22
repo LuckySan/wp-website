@@ -462,6 +462,42 @@ img {
     margin-top: 4rem;
 }
 
+/* --- Youth Page Feature Grid --- */
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.feature-card {
+    background-color: var(--white-color);
+    border-radius: var(--border-radius);
+    padding: 2.5rem 2rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    border-top: 4px solid var(--accent-color);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.feature-card .icon {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    color: var(--headline-color);
+    margin-bottom: 1rem;
+}
+
+
 /* --- Instagram-Galerie --- */
 .instagram-gallery {
     padding: 4rem 0;
