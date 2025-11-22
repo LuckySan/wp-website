@@ -767,6 +767,73 @@ img {
     font-weight: bold;
 }
 
+/* --- Vorstandschaft Page --- */
+.board-sections {
+    padding: 4rem 0;
+}
+
+.board-section {
+    margin-bottom: 4rem;
+}
+
+.board-section-title-wrapper {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.board-section-title-wrapper h2 {
+    font-size: 2.2rem;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.board-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.board-card {
+    background-color: var(--white-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    text-align: center;
+    border-top: 4px solid var(--primary-color);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.board-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.board-card h3 {
+    font-size: 1.3rem;
+    color: var(--headline-color);
+    margin-bottom: 0.5rem;
+}
+
+.board-card p {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+    .board-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .board-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
 @media (max-width: 768px) {
     .article-controls {
         flex-direction: column;
