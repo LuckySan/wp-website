@@ -2,6 +2,15 @@ document.addEventListener("DOMContentLoaded", function() {
     // Article data
     const articles = [
         {
+            title: "Glanzvolle Königsfeier 2025",
+            date: "2025-11-22",
+            displayDate: "22. November 2025",
+            summary: "Der Höhepunkt des Schützenjahres: Die feierliche Proklamation der neuen Schützenkönige in festlicher Atmosphäre.",
+            link: "artikel/koenigsfeier-2025.html",
+            image: "images/archiv/2025-11-Koenigsfeier/Die Gewinner.jpg",
+            keywords: ["Veranstaltung", "Allgemein"]
+        },
+        {
             title: "Beispiel Artikel",
             date: "2025-11-21", // YYYY-MM-DD for easy sorting
             displayDate: "21. November 2025",
