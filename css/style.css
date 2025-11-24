@@ -971,7 +971,32 @@ img {
         grid-template-columns: 1fr;
     }
     
-    .masonry-gallery {
-        column-count: 1;
+        .masonry-gallery {
+    
+            column-count: 1;
+    
+        }
+    
     }
-}
+    
+    
+    
+    /* --- Year Filter --- */
+    
+    #year-filter-container {
+    
+        margin-top: 2rem;
+    
+    }
+    
+    
+    
+    #year-filter .filter-btn {
+    
+        padding: 0.8rem 1.8rem;
+    
+        font-size: 1.1rem;
+    
+    }
+    
+    

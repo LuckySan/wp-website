@@ -134,4 +134,37 @@ document.addEventListener("DOMContentLoaded", function() {
             modal.style.display = "none";
         }
     }
+
+    // --- Photo Archive Year Filter ---
+    const yearFilterContainer = document.getElementById('year-filter');
+    if (yearFilterContainer) {
+        const filterButtons = yearFilterContainer.querySelectorAll('.filter-btn');
+        const galleries = document.querySelectorAll('.archive-gallery');
+
+        function filterGalleries(year) {
+            galleries.forEach(gallery => {
+                if (gallery.dataset.year === year) {
+                    gallery.style.display = 'block';
+                } else {
+                    gallery.style.display = 'none';
+                }
+            });
+        }
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', (event) => {
+                // Update active button state
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                event.target.classList.add('active');
+
+                // Filter the galleries
+                const selectedYear = event.target.dataset.year;
+                filterGalleries(selectedYear);
+            });
+        });
+
+        // Initial filter on page load (for the default active year)
+        const initialYear = yearFilterContainer.querySelector('.filter-btn.active').dataset.year;
+        filterGalleries(initialYear);
+    }
 });
