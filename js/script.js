@@ -2,6 +2,15 @@ document.addEventListener("DOMContentLoaded", function() {
     // Article data
     const articles = [
         {
+            title: "Einladung zur Christbaumversteigerung am 6. Dezember 2025",
+            date: "2025-12-06",
+            displayDate: "06. Dezember 2025",
+            summary: "Wir laden herzlich zu unserer traditionellen Christbaumversteigerung ein! Ein geselliger Abend mit spannenden Versteigerungen und Tombola.",
+            link: "artikel/christbaumversteigerung-2025.html",
+            image: "images/archiv/2025-12-Christbaumversteigerung/Christbaumversteigerung.png",
+            keywords: ["Veranstaltung", "Allgemein"]
+        },
+        {
             title: "Wir sind dabei: Adventsmarkt Wenzenbach 2025",
             date: "2025-11-24",
             displayDate: "22. November 2025",
