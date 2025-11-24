@@ -183,7 +183,7 @@ img {
     color: var(--white-color);
     padding: 10rem 0;
     text-align: center;
-    min-height: 500px;
+    min-height: 65vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -978,25 +978,18 @@ img {
         }
     
     }
-    
-    
-    
     /* --- Year Filter --- */
-    
     #year-filter-container {
-    
         margin-top: 2rem;
-    
     }
-    
-    
-    
     #year-filter .filter-btn {
-    
         padding: 0.8rem 1.8rem;
-    
         font-size: 1.1rem;
-    
     }
+    /* --- Calendar Embed Styling --- */
+    .calendar-embed {
+        padding-top: 4rem;
+    }
+    
     
     
