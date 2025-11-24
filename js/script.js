@@ -2,22 +2,22 @@ document.addEventListener("DOMContentLoaded", function() {
     // Article data
     const articles = [
         {
-            title: "Glanzvolle Königsfeier 2025",
-            date: "2025-11-22",
+            title: "Wir sind dabei: Adventsmarkt Wenzenbach 2025",
+            date: "2025-11-24",
             displayDate: "22. November 2025",
+            summary: "Der Schützenverein Waldeslust Probstberg ist auf dem Adventsmarkt in Wenzenbach vertreten. Besuchen Sie unseren Stand!",
+            link: "artikel/adventsmarkt-wenzenbach-2025.html",
+            image: "images/archiv/2025-11-Weihnachtsmarkt/Weihnachtsmarkt.png",
+            keywords: ["Veranstaltung", "Allgemein"]
+        },
+        {
+            title: "Glanzvolle Königsfeier 2025",
+            date: "2025-11-21",
+            displayDate: "21. November 2025",
             summary: "Der Höhepunkt des Schützenjahres: Die feierliche Proklamation der neuen Schützenkönige in festlicher Atmosphäre.",
             link: "artikel/koenigsfeier-2025.html",
             image: "images/archiv/2025-11-Koenigsfeier/Die Gewinner.jpg",
             keywords: ["Veranstaltung", "Allgemein"]
-        },
-        {
-            title: "Beispiel Artikel",
-            date: "2025-11-21", // YYYY-MM-DD for easy sorting
-            displayDate: "21. November 2025",
-            summary: "Dies ist eine kurze Beschreibung des Beispielartikels.",
-            link: "artikel/beispiel-artikel.html",
-            image: "images/thumbnail/Thumbnails Spaßschießen.jpg",
-            keywords: ["Allgemein", "Beispiel"]
         },
         {
             title: "Stimmungsvolles Kirtabaumaufstellen 2025",
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
             displayDate: "18. Oktober 2025",
             summary: "Bei sonnigem Herbstwetter fand am 18. Oktober 2025 das traditionelle Kirtabaumaufstellen des Schützenvereins Waldeslust Probstberg statt.",
             link: "artikel/kirtabaumaufstellen-2025.html",
-            image: "images/thumbnail/Thumbnails Veranstaltungen.jpg",
+            image: "images/archiv/2025-10-Kirta/2025-Kirta-BaumAufstellen.jpg",
             keywords: ["Veranstaltung", "Kirta"]
         }
     ];
