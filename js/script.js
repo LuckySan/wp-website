@@ -5,6 +5,15 @@ document.addEventListener("DOMContentLoaded", function() {
     if (articlesContainer) {
         const articles = [
             {
+                title: "Rückblick: Christbaumversteigerung 2025",
+                date: "2025-12-06",
+                displayDate: "06. Dezember 2025",
+                summary: "Ein gelungener Abend! Danke an alle Spender.",
+                link: "artikel/christbaumversteigerung-rueckblick-2025.html",
+                image: "images/archiv/2025-12-Christbaumversteigerung/Christbaumversteigerung.png",
+                keywords: ["Bericht", "Allgemein"]
+            },
+            {
                 title: "Rückblick: Christkindlmarkt 2025",
                 date: "2025-11-30",
                 displayDate: "30. November 2025",
