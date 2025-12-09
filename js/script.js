@@ -6,21 +6,21 @@ document.addEventListener("DOMContentLoaded", function() {
         const articles = [
             {
                 title: "Rückblick: Christkindlmarkt 2025",
-                date: "2025-12-30",
-                displayDate: "30. Dezember 2025",
-                summary: "Am 29. und 30. Dezember waren wir mit einem Stand vertreten. Glühwein, Knackersemmeln und gute Stimmung zum Jahresausklang.",
+                date: "2025-11-30",
+                displayDate: "30. November 2025",
+                summary: "Am 29. und 30. November waren wir mit einem Stand vertreten. Glühwein, Knackersemmeln und gute Stimmung zum Jahresausklang.",
                 link: "artikel/christkindlmarkt-2025.html",
-                image: "images/archiv/2025-11-Weihnachtsmarkt/Weihnachtsmarkt.png",
+                image: "images/archiv/2025-11-Weihnachtsmarkt/BildChristkindlmarktRobin2025.jpg",
                 keywords: ["Veranstaltung", "Allgemein"]
             },
             {
                 title: "Einladung zur Christbaumversteigerung am 6. Dezember 2025",
-                date: "2025-12-06",
-                displayDate: "06. Dezember 2025",
+                date: "2025-12-01",
+                displayDate: "01. Dezember 2025",
                 summary: "Wir laden herzlich zu unserer traditionellen Christbaumversteigerung ein! Ein geselliger Abend mit spannenden Versteigerungen und Tombola.",
                 link: "artikel/christbaumversteigerung-2025.html",
                 image: "images/archiv/2025-12-Christbaumversteigerung/Christbaumversteigerung.png",
-                keywords: ["Veranstaltung", "Allgemein"]
+                keywords: ["Ankündigung", "Allgemein"]
             },
             {
                 title: "Wir sind dabei: Adventsmarkt Wenzenbach 2025",
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 summary: "Der Schützenverein Waldeslust Probstberg ist auf dem Adventsmarkt in Wenzenbach vertreten. Besuchen Sie unseren Stand!",
                 link: "artikel/adventsmarkt-wenzenbach-2025.html",
                 image: "images/archiv/2025-11-Weihnachtsmarkt/Weihnachtsmarkt.png",
-                keywords: ["Veranstaltung", "Allgemein"]
+                keywords: ["Ankündigung", "Allgemein"]
             },
             {
                 title: "Glanzvolle Königsfeier 2025",
