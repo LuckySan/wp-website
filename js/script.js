@@ -5,6 +5,15 @@ document.addEventListener("DOMContentLoaded", function() {
     if (articlesContainer) {
         const articles = [
             {
+                title: "Rückblick: Christkindlmarkt 2025",
+                date: "2025-12-30",
+                displayDate: "30. Dezember 2025",
+                summary: "Am 29. und 30. Dezember waren wir mit einem Stand vertreten. Glühwein, Knackersemmeln und gute Stimmung zum Jahresausklang.",
+                link: "artikel/christkindlmarkt-2025.html",
+                image: "images/archiv/2025-11-Weihnachtsmarkt/Weihnachtsmarkt.png",
+                keywords: ["Veranstaltung", "Allgemein"]
+            },
+            {
                 title: "Einladung zur Christbaumversteigerung am 6. Dezember 2025",
                 date: "2025-12-06",
                 displayDate: "06. Dezember 2025",
