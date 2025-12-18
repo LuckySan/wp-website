@@ -5,6 +5,15 @@ document.addEventListener("DOMContentLoaded", function() {
     if (articlesContainer) {
         const articles = [
             {
+                title: "Ziel im Visier: Unsere neue Website ist ab sofort online!",
+                date: "2025-12-18",
+                displayDate: "18. Dezember 2025",
+                summary: "Nach intensiver Planung und Arbeit freuen wir uns, euch heute unseren neuen Internetauftritt vorstellen zu dürfen.",
+                link: "artikel/neue-website-online.html",
+                image: "images/thumbnail/NeueWebsiteThumbnail.png",
+                keywords: ["Ankündigung", "Allgemein"]
+            },
+            {
                 title: "Rückblick: Christbaumversteigerung 2025",
                 date: "2025-12-06",
                 displayDate: "06. Dezember 2025",
