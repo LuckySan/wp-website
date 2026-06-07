@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 summary: "Einladung zum 70-jährigen Jubiläum des Schützenvereins Waldeslust Probstberg am 15. August 2026. Feiern Sie mit uns diesen besonderen Meilenstein!",
                 link: "artikel/jubilaeum_2026.html",
                 image: "images/thumbnail/Flyer70JährigesJubiläum.png", 
-                keywords: ["Ankündigung", "Allgemein"]
+                keywords: ["Veranstaltung", "Allgemein"]
             },
             {
                 title: "Jahreshauptversammlung 2026",
@@ -45,6 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 displayDate: "30. November 2025",
                 summary: "Am 29. und 30. November waren wir mit einem Stand vertreten. Glühwein, Knackersemmeln und gute Stimmung zum Jahresausklang.",
                 link: "artikel/christkindlmarkt-2025.html",
+                image: "images/archiv/2025-11-Weihnachtsmarkt/BildChristkindlmarktRobin2025.jpg",
                 keywords: ["Veranstaltung", "Allgemein"]
             },
             {
