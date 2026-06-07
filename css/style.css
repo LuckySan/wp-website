@@ -835,6 +835,11 @@ img {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
+.board-two-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
 
 .board-card {
     background-color: var(--white-color);

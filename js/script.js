@@ -5,6 +5,14 @@ document.addEventListener("DOMContentLoaded", function() {
     if (articlesContainer) {
         const articles = [
             {
+                title: "Jahreshauptversammlung 2026",
+                date: "2026-03-01",
+                displayDate: "01. März 2026",
+                summary: "Am 01. März 2026 fand die Jahreshauptversammlung mit Wahlen des Schützenvereins Waldeslust Probstberg statt.",
+                link: "artikel/jhv2026.html",
+                keywords: ["Ankündigung", "Allgemein"]
+            },
+            {
                 title: "Ziel im Visier: Unsere neue Website ist ab sofort online!",
                 date: "2025-12-18",
                 displayDate: "18. Dezember 2025",
@@ -19,7 +27,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 displayDate: "06. Dezember 2025",
                 summary: "Ein gelungener Abend! Danke an alle Spender.",
                 link: "artikel/christbaumversteigerung-rueckblick-2025.html",
-                image: "images/archiv/2025-12-Christbaumversteigerung/Christbaumversteigerung.png",
                 keywords: ["Bericht", "Allgemein"]
             },
             {
@@ -28,17 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 displayDate: "30. November 2025",
                 summary: "Am 29. und 30. November waren wir mit einem Stand vertreten. Glühwein, Knackersemmeln und gute Stimmung zum Jahresausklang.",
                 link: "artikel/christkindlmarkt-2025.html",
-                image: "images/archiv/2025-11-Weihnachtsmarkt/BildChristkindlmarktRobin2025.jpg",
                 keywords: ["Veranstaltung", "Allgemein"]
-            },
-            {
-                title: "Einladung zur Christbaumversteigerung am 6. Dezember 2025",
-                date: "2025-12-01",
-                displayDate: "01. Dezember 2025",
-                summary: "Wir laden herzlich zu unserer traditionellen Christbaumversteigerung ein! Ein geselliger Abend mit spannenden Versteigerungen und Tombola.",
-                link: "artikel/christbaumversteigerung-2025.html",
-                image: "images/archiv/2025-12-Christbaumversteigerung/Christbaumversteigerung.png",
-                keywords: ["Ankündigung", "Allgemein"]
             },
             {
                 title: "Wir sind dabei: Adventsmarkt Wenzenbach 2025",
