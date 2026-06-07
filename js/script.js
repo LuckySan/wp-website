@@ -5,11 +5,21 @@ document.addEventListener("DOMContentLoaded", function() {
     if (articlesContainer) {
         const articles = [
             {
+                title: "Einladung zum 70-jährigen Jubiläum des Schützenvereins Waldeslust Probstberg",
+                date: "2026-08-15",
+                displayDate: "15. August 2026",
+                summary: "Einladung zum 70-jährigen Jubiläum des Schützenvereins Waldeslust Probstberg am 15. August 2026. Feiern Sie mit uns diesen besonderen Meilenstein!",
+                link: "artikel/jubilaeum_2026.html",
+                image: "images/thumbnail/Flyer70JährigesJubiläum.png", 
+                keywords: ["Ankündigung", "Allgemein"]
+            },
+            {
                 title: "Jahreshauptversammlung 2026",
                 date: "2026-03-01",
                 displayDate: "01. März 2026",
                 summary: "Am 01. März 2026 fand die Jahreshauptversammlung mit Wahlen des Schützenvereins Waldeslust Probstberg statt.",
                 link: "artikel/jhv2026.html",
+                image: "images/WahlenJHV2026.png",
                 keywords: ["Ankündigung", "Allgemein"]
             },
             {
